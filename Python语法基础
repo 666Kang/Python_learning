@@ -1,1 +1,48 @@
+# 2-1  变量的定义
+# 变量的声明和赋值      Python变量不需要先定义，直接就赋值使用
+# age = 18
+# print(age)
+# age1= age2 = age3 = 18
+# print(age1,age2,age3)
+# age1,age2 = 1,2
+# print(age1,age2)
 
+# print(3**2)    #3的2次方
+# print(3**2.0)
+# print(8%3)
+# print(8%3.0)
+# print(9//3)    #整除
+# print(9//3.0)
+
+#2-3 变量类型
+
+#数字类型number
+#python里面的数字没有大小限制
+
+# #二进制
+# a1 = 0b0110
+# print(a1)
+# #八进制
+# a2 = 0o135
+# print(a2)
+# #十六进制
+# a3 = 0xffff
+# print(a3)
+
+# #科学计数法  e后面跟整数，表示10的指数
+# age = 1.25e2   #e2表示10的2次方
+# print(age)
+
+# #复数
+# a4=4j
+# print(a4)
+
+#布尔值     False-0,非0都是True
+age = 18 + True
+print(age)      
+
+a = -1
+if a:
+    print("a是True")
+else:
+    print("a是False")
