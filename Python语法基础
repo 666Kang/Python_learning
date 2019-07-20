@@ -55,3 +55,55 @@ hello world
 Nobody learns without getting it wrong
 '''
 print(a)
+
+
+
+
+##2-6 表达式
+
+# #除法
+# a1 = 9 / 2
+# print(a1)
+
+# a2 = 9 // 2
+# print(a2)
+
+# a3 = 9 % 2
+# print(a3)
+
+# a4 = 9 % -2
+# print(a4)
+
+# #比较运算符
+# #等于 ==   不等于 !=   
+# print(3 == 4)
+# print(3 < 4)
+
+# #赋值运算符
+# a = 10
+# a = a + 5
+# print(a)
+# a += 10
+# print(a)
+
+# #逻辑运算符
+# a = True
+# b = False
+# print(a and b)
+# print(a or b)
+# c = 0 and 100     #bool值和数字相互转化，0 = False 其余都是 True
+# print(c)
+
+# #成员运算符
+# L = [1,2,3,4,5]
+# a = 6
+# a1 = a in L
+# a2 = a not in L
+# print(a1)
+# print(a2)
+
+#身份运算符
+a = 100505050999
+b = 100505050999
+a1 = a is b
+print(a1)
