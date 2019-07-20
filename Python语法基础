@@ -46,3 +46,12 @@ if a:
     print("a是True")
 else:
     print("a是False")
+    
+    
+#字符串  三引号可以表示多行信息
+a = '''
+这是多行信息
+hello world
+Nobody learns without getting it wrong
+'''
+print(a)
