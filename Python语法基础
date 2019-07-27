@@ -224,3 +224,35 @@ for stu in stu_list:
 #     money = (1+0.05)*money
 #     year += 1
 # print(year)
+
+
+
+
+
+
+
+
+
+# 2-11 函数
+# def fun():
+#     print('Hello World')
+#     print('123123')
+# fun()
+
+
+#形参，实参,返回值
+# def hello(person):
+#     print('{0},你好吗'.format(person))       #format(),用person来代替{}
+#     print('{},how is the weather today'.format(person))
+#     return None
+# #hello('小米')
+# a = '小米'
+# hello(a)
+
+
+#打印九九乘法表
+# for i in range(1,10):             #取值1-9
+#     for j in range(1,i + 1):      #打印每行的内容
+#         print(i * j,end='   ')    
+#     print()
+
