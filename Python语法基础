@@ -173,3 +173,54 @@ for stu in stu_list:
         print('人')
     else:
         print('熊')
+        
+        
+   
+# #找到列表中为7的数字，找到停止
+# list_one = [1,22,13,7,33,5,9,7]
+# for dig in list_one:
+#     if dig == 7:
+#         print(dig)
+#         print('找到7了')
+#         break
+#     else:
+#         print(dig)
+
+
+#找到列表中的偶数
+# list_two = [1,2,3,4,5,6,7,8,9] 
+# for dig in list_two:
+#     if dig % 2 == 0:
+#         print(dig)
+#         print('偶数')
+#     else:
+#         continue
+
+# for dig in list_two:
+#     if dig % 2 == 1:
+#         continue
+#     print(dig)
+
+#pass   占位符
+# list_two = [1,2,3,4,5,6,7,8,9] 
+# for dig in list_two:
+#     if dig % 2 == 0:
+#         pass 
+#     else:
+#         print(dig)
+
+
+#range函数 生成数字队列       range()是左包括右不包括，Python中大多数都是这样，randint是个特例
+# list_one = range(1,10)      #实际生成1——9
+# for dig in list_one:
+#     print(dig)
+
+
+# #while循环  
+# #年利率为5%，本利每年翻滚，多少年能翻一番
+# money = 1000
+# year = 0
+# while money < 2000:
+#     money = (1+0.05)*money
+#     year += 1
+# print(year)
